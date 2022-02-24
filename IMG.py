@@ -6,6 +6,7 @@ import pyfiglet
 
 blu = '\033[34m'
 yl = '\033[93m'
+os.system("clear")
 banner = pyfiglet.figlet_format("GRABBER")
 print (blu+banner)
 print (yl+"===========================================================")
@@ -33,4 +34,3 @@ try:
 
 except Exception as e:
 	print (f"Error:{yl} {e}")
-	
